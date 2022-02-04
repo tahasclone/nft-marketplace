@@ -11,8 +11,8 @@ import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 export default function Home() {
   const [nfts, setNfts] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')
-  
-  useEffect(() => {
+   
+   useEffect(() => {
     loadNFTs()
   }, [])
   
